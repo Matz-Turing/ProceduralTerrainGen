@@ -6,7 +6,7 @@
 
 Um gerador de mundo procedural 3D interativo. Ele utiliza camadas de Simplex Noise para criar terrenos detalhados com biomas, rios e elevações variadas, tudo renderizado em tempo real com a biblioteca Three.js.
 
-[**Clique aqui para ver a demonstração**](https://seu-usuario.github.io/seu-repositorio/)  
+[**Clique aqui para ver a demonstração**]([https://seu-usuario.github.io/seu-repositorio/](https://procedural-terrain-gen.netlify.app/))  
 
 ##  Funcionalidades
 
