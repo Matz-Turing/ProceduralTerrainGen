@@ -6,10 +6,9 @@
 
 Um gerador de mundo procedural 3D interativo. Ele utiliza camadas de Simplex Noise para criar terrenos detalhados com biomas, rios e elevações variadas, tudo renderizado em tempo real com a biblioteca Three.js.
 
-[**Clique aqui para ver a demonstração ao vivo!**](https://seu-usuario.github.io/seu-repositorio/)  
-*(Lembre-se de hospedar seu projeto, por exemplo, no GitHub Pages, e atualizar este link)*
+[**Clique aqui para ver a demonstração**](https://seu-usuario.github.io/seu-repositorio/)  
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 -   **Geração de Terreno com Múltiplas Camadas (Octaves)**: Criação de relevo realista combinando várias frequências de ruído.
 -   **Criação de Biomas por Altitude**: Coloração dinâmica do terreno que simula água, areia, grama, rocha e neve.
@@ -18,34 +17,13 @@ Um gerador de mundo procedural 3D interativo. Ele utiliza camadas de Simplex Noi
 -   **Iluminação Naturalista e Atmosfera**: Uso de `HemisphereLight` e névoa para criar uma iluminação ambiente e profundidade.
 -   **Controles de Câmera Interativos**: Navegue pela cena com zoom, rotação e movimento (pan).
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 -   **Three.js**: A biblioteca principal para renderização 3D no navegador.
 -   **simplex-noise**: Biblioteca para geração de ruído Simplex, a base para a proceduralidade.
 -   **HTML5, CSS3 e JavaScript (ESM)**: Estrutura, estilo e lógica do projeto, utilizando a sintaxe de Módulos ES.
 
-## 🚀 Como Executar Localmente
-
-Este projeto não requer um processo de build (como Webpack ou Vite). Graças ao uso de `importmap`, ele pode ser executado diretamente no navegador.
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
-
-2.  **Navegue até a pasta do projeto:**
-    ```bash
-    cd seu-repositorio
-    ```
-
-3.  **Inicie um servidor local:**
-    Como o projeto usa módulos JavaScript (`import`), ele precisa ser servido via HTTP/HTTPS. A forma mais fácil de fazer isso é usando a extensão **Live Server** no Visual Studio Code.
-    -   Instale a extensão `Live Server`.
-    -   Clique com o botão direito no arquivo `index.html` e selecione "Open with Live Server".
-
-    Seu navegador abrirá automaticamente com o projeto em execução.
-
-## ⚙️ Detalhes da Implementação
+##  Detalhes da Implementação
 
 #### 1. Estrutura da Cena com Three.js
 A base é uma cena padrão do Three.js com `Scene`, `PerspectiveCamera` e `WebGLRenderer`. O fundo e a névoa (`fog`) são definidos como pretos para criar uma atmosfera focada e de alto contraste. Os `OrbitControls` permitem a interação do usuário.
@@ -73,6 +51,6 @@ Após calcular a altura final de cada vértice, uma simples cadeia de `if/else i
 
 ---
 
-### 👤 Créditos
+### Créditos
 
 Criado por: **Mateus S. (GitHub: Matz-Turing)**
